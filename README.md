@@ -4,7 +4,7 @@ This is project-02 for the lede program.
 Link to the project-02 ()
 
 ## Title
-Analyzing the Japanese Prime Minister's Dining Diplomacy
+Analysis of Prime Minister Kishida's Domestic Dining Engagements
 <br>
 Exploring Prime Minister Kishida's Administration: October 5, 2021 to July 9, 2024
 
