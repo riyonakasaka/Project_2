@@ -23,13 +23,14 @@ All articles from the "Prime Minister's Activities" section on the Nikkei Shimbu
 Data on the number of COVID-19 infections from January 2020 to May 2023 was collected from official announcements and publications by the Tokyo Metropolitan Government(https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000397).
 
 ## Data Analysis Process
-1-1.Data Cleaning from Nikkei Shimbun's "Prime Minister's Activities" Website: Scraped data from the Nikkei Shimbun's "Prime Minister's Activities" website required cleaning due to formatting issues and extraneous characters. Specifically, I filtered articles containing the keyword '会食' (dining engagements in Japanese) and extracted relevant text.
+1-1.Data Cleaning from Nikkei Shimbun's "Prime Minister's Activities" Website(scrapping.ipynb): Scraped data from the Nikkei Shimbun's "Prime Minister's Activities" website required cleaning due to formatting issues and extraneous characters. Specifically, I filtered articles containing the keyword '会食' (dining engagements in Japanese) and extracted relevant text.
 
-1-2.Classification of Dining Engagements: I classified the dining engagements into 'Lunch Meetings' and 'Dinner Meetings'. Lunch meetings typically occur between 11:00 and 13:00, so I divided the data into rows containing keywords '11時', '12時', '13時' (indicating lunchtime) and those that did not. Total counts were calculated for each category.
+1-2.Classification of Dining Engagements(lunchdinner.ipynb): I classified the dining engagements into 'Lunch Meetings' and 'Dinner Meetings'. Lunch meetings typically occur between 11:00 and 13:00, so I divided the data into rows containing keywords '11時', '12時', '13時' (indicating lunchtime) and those that did not. Total counts were calculated for each category.()
 
-1-3.Japanese Text Analysis using MeCab: I utilized MeCab for Japanese text analysis on the cleaned DataFrame from step 1-1. MeCab was installed to count the occurrences of nouns within the DataFrame. Prior to counting, preprocessing involved filtering to ensure accurate counting of the same individuals despite variations in title, first name, and last name segmentation by MeCab.
 
-2.Visualization of Tokyo Metropolitan Open Data: Tokyo Metropolitan open data, saved in CSV format, was graphically represented to illustrate relevant trends or patterns.
+1-3.Japanese Text Analysis using MeCab(mecab.ipynb): I utilized MeCab for Japanese text analysis on the cleaned DataFrame from step 1-1. MeCab was installed to count the occurrences of nouns within the DataFrame. Prior to counting, preprocessing involved filtering to ensure accurate counting of the same individuals despite variations in title, first name, and last name segmentation by MeCab.
+
+2.Visualization of Tokyo Metropolitan Open Data(130001_tokyo_covid19_patients_per_report_date.csv): Tokyo Metropolitan open data, saved in CSV format, was graphically represented to illustrate relevant trends or patterns.
 
 ## New Skills and Growth
 
