@@ -33,7 +33,7 @@ Data on the number of COVID-19 infections from January 2020 to May 2023 was coll
 
 ## New Skills and Growth
 
-1. Scraping from Multiple Pages:　I developed a new skill in scraping multiple pages, which was not covered in our coursework. This allowed me to efficiently gather comprehensive data from diverse sources for this project.
+1.Scraping from Multiple Pages:　I developed a new skill in scraping multiple pages, which was not covered in our coursework. This allowed me to efficiently gather comprehensive data from diverse sources for this project.
 
 2.Japanese Text Analysis with MeCab: I installed and employed MeCab for Japanese text analysis, which played a crucial role in conducting the analysis for this project. This tool enabled accurate parsing and counting of Japanese text elements, enhancing the depth of our findings.
 
