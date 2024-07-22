@@ -1,7 +1,7 @@
 # Project02
 This is project-02 for the lede program.
 <br>
-Link to the project-02 ()
+Link to the project-02 (https://riyonakasaka.github.io/Project_2/)
 
 ## Title
 Analysis of Prime Minister Kishida's Domestic Dining Engagements
